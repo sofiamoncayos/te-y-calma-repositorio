@@ -1,79 +1,80 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
 }
 
 
-.menu{
-    padding:20px;
-    margin:auto;
+.menu {
+    padding: 20px;
+    margin: auto;
 
 }
-.menu ul {
-    display:flex;
-    justify-content:space-between;
-    gap:20px;
 
-    text-decoration:none;
-    list-style:none;
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    text-decoration: none;
+    list-style: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     color: #000000;
 }
-.menu ul li a{
-    text-decoration:none;
+
+.menu ul li a {
+    text-decoration: none;
     color: #000000;
 }
 
 
-h1{
-    font-family:"Poppins";
+h1 {
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
     color: #000000;
-    padding:20px;
-    margin:auto;
-    }
+    padding: 20px;
+    margin: auto;
+}
 
-h2{
-    font-family:"Poppins";
+h2 {
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     color: #000000;
 }
 
-h3{
+h3 {
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
 }
 
-h4{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
+h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
 
-color: #000000;
+    color: #000000;
 }
 
 
-    
 
-p{
-    font-family:'Poppins';
+
+p {
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -82,8 +83,8 @@ p{
 
 }
 
-button{
-    background-color:#D9D9CF;
+button {
+    background-color: #D9D9CF;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -99,20 +100,21 @@ button{
 
 
 
-.texto-contacto{
+.texto-contacto {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
-    
+
     color: #000000;
 
 }
-.formcontacto{
 
-    
-    background-color:#D9D9CF;
+.formcontacto {
+
+
+    background-color: #D9D9CF;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -126,8 +128,8 @@ button{
 
 }
 
-.boton-enviar{
-    background-color:#D9D9CF;
+.boton-enviar {
+    background-color: #D9D9CF;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -139,28 +141,31 @@ button{
     font-weight: 300;
     font-size: 24px;
 }
-.categoria{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    margin:auto;
-    padding:20px;
+
+.categoria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 20px;
 }
 
 
 .card-descripcion {
-    padding:40px;
-    margin:auto;
-    display:flex;
+    padding: 40px;
+    margin: auto;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.text-categoria{
-    margin-top:10px;}
+
+.text-categoria {
+    margin-top: 10px;
+}
 
 .navbar {
-    background-color:#D9D9CF !important;
-    text-decoration:none;
-    list-style:none;
+    background-color: #D9D9CF !important;
+    text-decoration: none;
+    list-style: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -169,68 +174,75 @@ button{
 
 }
 
-.container-categoria{
-    margin:auto;
-    padding:20px;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:20px;
+.container-categoria {
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 
 }
+
 @media (max-width: 500px) {
     .container-categoria {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 
-.container-producto{
-    margin:auto;
-    padding:20px;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:20px;
+.container-producto {
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 
 }
+
 @media (max-width: 600px) {
     .container-producto {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 @media (min-width:600px)and(max-width: 950px) {
     .container-producto {
-    grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-footer{
-    background-color:#D9D9CF;}
+footer {
+    background-color: #D9D9CF;
+}
 
-.container-historia{
-    padding:20px;
+.container-historia {
+    padding: 20px;
     margin: auto;
 }
 
 @media (max-width: 500px) {
     .descubre {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
-.principal{
-    display:grid;
+
+.principal {
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 @media (max-width: 500px) {
     .principal {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
-html, body {
+
+html,
+body {
     overflow-x: hidden;
 }
-.contacto{
+
+.contacto {
     padding: 10px;
     margin: auto;
 }
-
