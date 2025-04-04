@@ -6,31 +6,6 @@
 }
 
 
-.menu {
-    padding: 20px;
-    margin: auto;
-
-}
-
-.menu ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #000000;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #000000;
-}
-
 
 h1 {
     font-family: "Poppins";
@@ -99,18 +74,6 @@ button {
 }
 
 
-
-.texto-contacto {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-
-    color: #000000;
-
-}
-
 .formcontacto {
 
 
@@ -158,9 +121,6 @@ button {
     justify-content: space-between;
 }
 
-.text-categoria {
-    margin-top: 10px;
-}
 
 .navbar {
     background-color: #D9D9CF !important;
@@ -218,23 +178,6 @@ footer {
 .container-historia {
     padding: 20px;
     margin: auto;
-}
-
-@media (max-width: 500px) {
-    .descubre {
-        grid-template-columns: 1fr;
-    }
-}
-
-.principal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-@media (max-width: 500px) {
-    .principal {
-        grid-template-columns: 1fr;
-    }
 }
 
 html,
