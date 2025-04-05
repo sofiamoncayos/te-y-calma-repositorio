@@ -5,38 +5,42 @@ $color-base: #D9D9CF;
 
 // MIXINS
 @mixin transition($props...) {
-  transition: $props;
+    transition: $props;
 }
 
 @mixin animate-opacity($duration: 0.5s) {
-  animation: fadeIn $duration ease-in-out;
+    animation: fadeIn $duration ease-in-out;
 }
 
 // KEYFRAMES
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes pop {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
-button, .boton-enviar {
+button,
+.boton-enviar {
     background-color: $color-base;
     border: none;
     color: black;
@@ -45,18 +49,18 @@ button, .boton-enviar {
     font-weight: 300;
     font-size: 24px;
     cursor: pointer;
-  
+
     @include transition(all $transition-speed ease);
-  
+
     &:hover {
-      background-color: $color-hover;
-      animation: pop 0.3s ease-in-out;
+        background-color: $color-hover;
+        animation: pop 0.3s ease-in-out;
     }
-  
+
     &:active {
-      transform: scale(0.98);
+        transform: scale(0.98);
     }
-  }
+}
 
 
 
@@ -89,10 +93,6 @@ $font-size-lg: 24px;
     margin: 0;
 }
 
-html,
-body {
-    overflow-x: hidden;
-}
 
 h1 {
     @include text-style(600, 64px);
