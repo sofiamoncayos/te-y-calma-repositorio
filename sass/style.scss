@@ -1,0 +1,13 @@
+// base
+
+@use './base/variables';
+@use './base/mixins';
+@use './base/tipografia';
+
+// pagina
+@use './pagina/estructura';
+@use './pagina/layouts';
+
+// interaccion
+@use './interaccion/componentes';
+@use './interaccion/animaciones';

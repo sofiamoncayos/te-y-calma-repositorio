@@ -1,0 +1,70 @@
+// ---------------------------------------------
+// 6. ESTRUCTURA DE PÁGINA
+// ---------------------------------------------
+
+.categoria,
+.card-descripcion,
+.container-categoria,
+.container-producto,
+.container-historia,
+.principal,
+.text-categoria {
+    margin: auto;
+}
+
+.categoria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.card-descripcion {
+    padding: 40px;
+    @include flex-column;
+    justify-content: space-between;
+}
+
+.container-categoria {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.container-producto {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 600px) and (max-width: 950px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.container-historia {
+    padding: 20px;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.descubre {
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}

@@ -25,7 +25,6 @@ button,
   border: none;
   color: black;
   padding: 15px 32px;
-  margin: 10px;
   font-family: "Poppins";
   font-weight: 300;
   font-size: 24px;
@@ -98,6 +97,7 @@ button {
   background-color: #D9D9CF;
   border: none;
   color: black;
+  margin: 10px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

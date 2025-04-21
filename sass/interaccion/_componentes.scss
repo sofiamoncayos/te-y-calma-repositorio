@@ -1,0 +1,40 @@
+// ---------------------------------------------
+// 4. COMPONENTES
+// ---------------------------------------------
+
+button,
+.boton-enviar {
+    background-color: $color-base;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-family: $font-main;
+    font-weight: 300;
+    font-size: 24px;
+    cursor: pointer;
+    @include transition(all $transition-speed ease);
+
+    &:hover {
+        background-color: $color-hover;
+        animation: pop 0.3s ease-in-out;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+    &.boton-enviar {
+        text-align: left;
+    }
+}
+
+.formcontacto {
+    background-color: $color-bg;
+    border: none;
+    color: black;
+    padding: $padding-lg;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    @include text-style(300, $font-size-lg);
+}

@@ -1,0 +1,19 @@
+// ---------------------------------------------
+// 5. LAYOUT
+// ---------------------------------------------
+
+.navbar {
+    background-color: $color-bg !important;
+    text-decoration: none;
+    list-style: none;
+    @include text-style(400, 18px);
+}
+
+footer {
+    background-color: $color-bg;
+}
+
+.contacto {
+    padding: 10px;
+    margin: auto;
+}

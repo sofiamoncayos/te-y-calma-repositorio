@@ -1,0 +1,27 @@
+
+// ---------------------------------------------
+// 3. TIPOGRAFÍA
+// ---------------------------------------------
+
+h1 {
+    @include text-style(600, 64px);
+    padding: 20px;
+    margin: auto;
+}
+
+h2 {
+    @include text-style(500, 36px);
+}
+
+h3 {
+    @include text-style(500, 20px, 30px);
+}
+
+h4 {
+    @include text-style(500, 24px, 36px);
+}
+
+p,
+.texto-contacto {
+    @include text-style(300, $font-size-base, 24px);
+}

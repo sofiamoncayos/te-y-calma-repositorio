@@ -1,0 +1,22 @@
+// Mixins generales
+@mixin transition($props...) {
+  transition: $props;
+}
+
+@mixin animate-opacity($duration: 0.5s) {
+  animation: fadeIn $duration ease-in-out;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin text-style($weight, $size, $line-height: normal) {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+  color: $color-black;
+}
