@@ -5,5 +5,12 @@
   Aquí puedes ver la página montada 
   <a
   href= "https://sofiamoncayos.github.io/te-y-calma-repositorio/">
-  PÁGINA 
+  PÁGINA GIT HUB 
+  </a>
+
+  <p>
+  Aquí puedes ver la página montada en el servidor
+  <a
+  href= "http://te-y-calma.infinityfreeapp.com/">
+  PÁGINA SERVIDOR
   </a>
